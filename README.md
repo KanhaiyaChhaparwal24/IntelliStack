@@ -2,6 +2,9 @@
 
 A Node.js server application for deploying deep learning models with WebSocket support for real-time camera frame processing.
 
+## About
+This is a group project developed for inGen Dynamics as part of an AI integration initiative. The goal was to build a flexible and real-time deep learning model server that supports both REST and WebSocket interfaces.
+
 ## Features
 
 - WebSocket server for real-time camera frame processing
