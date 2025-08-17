@@ -1,4 +1,4 @@
-# Deep Learning Model Server
+# IntelliStack — smart infrastructure for AI.
 
 A Node.js server application for deploying deep learning models with WebSocket support for real-time camera frame processing.
 
