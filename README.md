@@ -39,6 +39,15 @@ dl-model-server/
   - PyTorch 1.8+ or TensorFlow 2.4+
   - The application will use PyTorch's ResNet18 if available, then fall back to TensorFlow's MobileNetV2, and finally to a simple brightness-based classifier if neither is available
 
+## Customizing the Model
+
+To use your own deep learning model, see the full guide here: [Add Your Own Model Guide](Add_Your_Own_Model_Guide.md)
+
+In short:
+1. Modify the `infer.py` script in the `model` folder
+2. Replace the existing model loading and inference code with your own model
+3. Ensure your model returns results in JSON format
+
 ## Installation
 
 1. Clone the repository:
